@@ -30,3 +30,7 @@
 	path = template-loong64
 	url = https://github.com/kubernetes-loong64/template-loong64
 	branch = main
+[submodule ".github"]
+	path = .github
+	url = https://github.com/kubernetes-loong64/.github
+	branch = main
