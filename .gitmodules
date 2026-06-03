@@ -34,3 +34,7 @@
 	path = .github
 	url = https://github.com/kubernetes-loong64/.github
 	branch = main
+[submodule "moby-loong64"]
+	path = moby-loong64
+	url = https://github.com/kubernetes-loong64/moby-loong64.git
+	branch = main
