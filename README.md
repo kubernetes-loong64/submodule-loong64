@@ -55,7 +55,7 @@ make checkout-all-main
 Contributions are welcome. Each component follows standard Git workflow:
 
 1. Work within the relevant submodule directory
-2. Commit changes using [gitmoji](https://gitmoji.dev/) shortcodes
+2. Commit changes using [gitmoji](AGENTS.md) shortcodes
 3. Every commit must include a `Signed-off-by:` line (DCO)
 
 See [AGENTS.md](AGENTS.md) for detailed commit conventions.

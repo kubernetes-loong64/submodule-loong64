@@ -54,7 +54,7 @@ make checkout-all-main
 欢迎贡献。各组件遵循 standard Git 工作流：
 
 1. 在对应的子模块目录中工作
-2. 使用 [gitmoji](https://gitmoji.dev/) shortcode 作为提交信息前缀
+2. 使用 [gitmoji](AGENTS.md) shortcode 作为提交信息前缀
 3. 每个提交必须包含 `Signed-off-by:` 行（DCO）
 
 详细提交规范请参阅 [AGENTS.md](AGENTS.md)。
