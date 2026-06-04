@@ -10,17 +10,21 @@ coordinate releases across the full stack.
 
 ## Components
 
-| Submodule                                                                      | Description                                    | Work Branch       |
-|--------------------------------------------------------------------------------|------------------------------------------------|-------------------|
-| [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64) | Kubernetes mainline port to loong64            | `loong64-v1.36.1` |
-| [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64) | Container runtime (containerd) for loong64     | `loong64-v2.3.1`  |
-| [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)       | Cluster DNS (CoreDNS) for loong64              | `loong64-v1.14.2` |
-| [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)             | Distributed key-value store (etcd) for loong64 | `loong64-v3.6.8`  |
-| [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)   | CRI command-line tools for loong64             | `loong64-v1.36.0` |
-| [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)       | Kubernetes network plugins for loong64         | `loong64-v1.9.1`  |
-| [release-loong64](https://github.com/kubernetes-loong64/release-loong64)       | Release tooling and artifacts for loong64      | `loong64-v0.21.1` |
-| [template-loong64](https://github.com/kubernetes-loong64/template-loong64)     | Repository template                            | `main`            |
-| [.github](https://github.com/kubernetes-loong64/.github)                       | Shared GitHub configurations                   | `main`            |
+| Submodule                                                                      | Description                                    | Work Branch              |
+|--------------------------------------------------------------------------------|------------------------------------------------|--------------------------|
+| [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64) | Kubernetes mainline port to loong64            | `loong64-v1.36.1`        |
+| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)               | Docker CLI for loong64                         | `loong64-v29.5.1`        |
+| [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64) | Container runtime (containerd) for loong64     | `loong64-v2.3.1`         |
+| [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)       | Cluster DNS (CoreDNS) for loong64              | `loong64-v1.14.2`        |
+| [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)   | CRI command-line tools for loong64             | `loong64-v1.36.0`        |
+| [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)             | Distributed key-value store (etcd) for loong64 | `loong64-v3.6.8`         |
+| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)             | Docker (moby) for loong64                      | `loong64-docker-v29.5.1` |
+| [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)       | Kubernetes network plugins for loong64         | `loong64-v1.9.1`         |
+| [release-loong64](https://github.com/kubernetes-loong64/release-loong64)       | Release tooling and artifacts for loong64      | `loong64-v0.21.1`        |
+| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)             | Container runtime (runc) for loong64           | `loong64-v1.4.2`         |
+| [template-loong64](https://github.com/kubernetes-loong64/template-loong64)     | Repository template                            | `main`                   |
+| [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)             | Container init (tini) for loong64              | `loong64-master`         |
+| [.github](https://github.com/kubernetes-loong64/.github)                       | Shared GitHub configurations                   | `main`                   |
 
 ## Quick Start
 
