@@ -20,6 +20,7 @@ MAIN_WORK_BRANCH        ?= main
 MOBY_WORK_BRANCH        ?= loong64-docker-v29.5.1
 PLUGINS_WORK_BRANCH     ?= loong64-v1.9.1
 RELEASE_WORK_BRANCH     ?= loong64-v0.21.1
+RUNC_WORK_BRANCH        ?= loong64-v1.4.2
 TEMPLATE_WORK_BRANCH    ?= main
 
 # Mark targets as phony (not actual files)
@@ -40,4 +41,5 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd moby-loong64 && git checkout $(MOBY_WORK_BRANCH) || :
 	cd plugins-loong64 && git checkout $(PLUGINS_WORK_BRANCH) || :
 	cd release-loong64 && git checkout $(RELEASE_WORK_BRANCH) || :
+	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
