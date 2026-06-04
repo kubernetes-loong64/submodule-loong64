@@ -14,15 +14,12 @@ CLI_WORK_BRANCH         ?= loong64-v29.5.1
 CONTAINERD_WORK_BRANCH  ?= loong64-v2.3.1
 COREDNS_WORK_BRANCH     ?= loong64-v1.14.2
 CRI_TOOLS_WORK_BRANCH   ?= loong64-v1.36.0
-DOT_GITHUB_WORK_BRANCH  ?= main
 ETCD_WORK_BRANCH        ?= loong64-v3.6.8
 KUBERNETES_WORK_BRANCH  ?= loong64-v1.36.1
-MAIN_WORK_BRANCH        ?= main
 MOBY_WORK_BRANCH        ?= loong64-docker-v29.5.1
 PLUGINS_WORK_BRANCH     ?= loong64-v1.9.1
 RELEASE_WORK_BRANCH     ?= loong64-v0.21.1
 RUNC_WORK_BRANCH        ?= loong64-v1.4.2
-TEMPLATE_WORK_BRANCH    ?= main
 TINI_WORK_BRANCH        ?= loong64-master
 
 # Mark targets as phony (not actual files)
