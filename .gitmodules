@@ -42,3 +42,7 @@
 	path = runc-loong64
 	url = https://github.com/kubernetes-loong64/runc-loong64.git
 	branch = main
+[submodule "cli-loong64"]
+	path = cli-loong64
+	url = https://github.com/kubernetes-loong64/cli-loong64.git
+	branch = main

@@ -10,6 +10,7 @@ help: ## Show help information
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9._-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 # Work branch variables — fill in your branch names
+CLI_WORK_BRANCH         ?= loong64-v29.5.1
 CONTAINERD_WORK_BRANCH  ?= loong64-v2.3.1
 COREDNS_WORK_BRANCH     ?= loong64-v1.14.2
 CRI_TOOLS_WORK_BRANCH   ?= loong64-v1.36.0
@@ -33,6 +34,7 @@ checkout-all-main: ## Checkout main branch for main repo and all submodules
 checkout-all-work: ## Checkout work branch for main repo and all submodules
 	git checkout $(MAIN_WORK_BRANCH)
 	cd .github && git checkout $(DOT_GITHUB_WORK_BRANCH) || :
+	cd cli-loong64 && git checkout $(CLI_WORK_BRANCH) || :
 	cd containerd-loong64 && git checkout $(CONTAINERD_WORK_BRANCH) || :
 	cd coredns-loong64 && git checkout $(COREDNS_WORK_BRANCH) || :
 	cd cri-tools-loong64 && git checkout $(CRI_TOOLS_WORK_BRANCH) || :
