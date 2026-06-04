@@ -46,3 +46,7 @@
 	path = cli-loong64
 	url = https://github.com/kubernetes-loong64/cli-loong64.git
 	branch = main
+[submodule "tini-loong64"]
+	path = tini-loong64
+	url = https://github.com/kubernetes-loong64/tini-loong64.git
+	branch = main

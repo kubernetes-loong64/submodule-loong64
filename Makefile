@@ -23,6 +23,7 @@ PLUGINS_WORK_BRANCH     ?= loong64-v1.9.1
 RELEASE_WORK_BRANCH     ?= loong64-v0.21.1
 RUNC_WORK_BRANCH        ?= loong64-v1.4.2
 TEMPLATE_WORK_BRANCH    ?= main
+TINI_WORK_BRANCH        ?= loong64-master
 
 # Mark targets as phony (not actual files)
 .PHONY: help checkout-all-main checkout-all-work
@@ -45,3 +46,4 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd release-loong64 && git checkout $(RELEASE_WORK_BRANCH) || :
 	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
+	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
