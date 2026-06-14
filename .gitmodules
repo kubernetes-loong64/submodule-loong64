@@ -54,3 +54,7 @@
 	path = jdk-loong64
 	url = https://github.com/kubernetes-loong64/jdk-loong64.git
 	branch = main
+[submodule "maven-loong64"]
+	path = maven-loong64
+	url = https://github.com/kubernetes-loong64/maven-loong64.git
+	branch = main
