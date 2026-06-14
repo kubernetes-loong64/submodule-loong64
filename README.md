@@ -24,7 +24,7 @@ coordinate releases across the full stack.
 | [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)             | Container runtime (runc) for loong64           | `loong64-v1.4.2`         |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)     | Repository template                            | `main`                   |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)             | Container init (tini) for loong64              | `loong64-master`         |
-| [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)               | JDK (Java Development Kit) for loong64         | `main`                   |
+| [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)               | JDK (Java Development Kit) container images    | `main`                   |
 | [.github](https://github.com/kubernetes-loong64/.github)                       | Shared GitHub configurations                   | `main`                   |
 
 ## Quick Start
