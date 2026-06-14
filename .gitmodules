@@ -50,3 +50,7 @@
 	path = tini-loong64
 	url = https://github.com/kubernetes-loong64/tini-loong64.git
 	branch = main
+[submodule "jdk-loong64"]
+	path = jdk-loong64
+	url = https://github.com/kubernetes-loong64/jdk-loong64.git
+	branch = main
