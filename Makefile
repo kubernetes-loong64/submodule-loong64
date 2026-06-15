@@ -22,6 +22,8 @@ RELEASE_WORK_BRANCH     ?= loong64-v0.21.1
 RUNC_WORK_BRANCH        ?= loong64-v1.4.2
 TINI_WORK_BRANCH        ?= loong64-master
 JDK_WORK_BRANCH         ?= main
+MAVEN_WORK_BRANCH       ?= main
+GRADLE_WORK_BRANCH      ?= main
 
 # DCO control — set to true to list DCO per branch for all branches
 DCO_ALL_BRANCHES ?= false
@@ -84,3 +86,5 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
 	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
 	cd jdk-loong64 && git checkout $(JDK_WORK_BRANCH) || :
+	cd maven-loong64 && git checkout $(MAVEN_WORK_BRANCH) || :
+	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
