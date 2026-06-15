@@ -24,6 +24,7 @@
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)     | 仓库模板                          | `main`                   |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)             | 容器 init (tini) loong64 移植     | `loong64-master`         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)               | JDK (Java 开发工具包) 容器镜像         | `main`                   |
+| [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)           | Apache Maven 容器镜像             | `main`                   |
 | [.github](https://github.com/kubernetes-loong64/.github)                       | 共享 GitHub 配置                  | `main`                   |
 
 ## 快速开始
