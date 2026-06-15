@@ -23,17 +23,46 @@ RUNC_WORK_BRANCH        ?= loong64-v1.4.2
 TINI_WORK_BRANCH        ?= loong64-master
 JDK_WORK_BRANCH         ?= main
 
+# DCO control — set to true to list DCO per branch for all branches
+DCO_ALL_BRANCHES ?= false
+
 # Mark targets as phony (not actual files)
 .PHONY: help dco dco-all checkout-all-main checkout-all-work
 
 dco: ## Show unique DCO (Signed-off-by) from commit history
-	@git log --format="%(trailers:key=Signed-off-by,valueonly)" | sort -u
+	@{ \
+		if [ "$(DCO_ALL_BRANCHES)" = true ]; then \
+			git for-each-ref --format="%(refname:short)" refs/heads/ | while read -r br; do \
+				git log "$$br" --format="%(trailers:key=Signed-off-by,valueonly)"; \
+			done; \
+		else \
+			git log --format="%(trailers:key=Signed-off-by,valueonly)"; \
+		fi; \
+	} | sort -u
 
 dco-all: ## Show unique DCO from main repo and all submodules
 	@{ \
-		git log --format="%(trailers:key=Signed-off-by,valueonly)"; \
-		git submodule foreach --recursive --quiet 'git log --format="%(trailers:key=Signed-off-by,valueonly)"'; \
-	} | sort -u
+		if [ "$(DCO_ALL_BRANCHES)" = true ]; then \
+			git for-each-ref --format="%(refname:short)" refs/heads/ | while read -r br; do \
+				echo "==> main ($$br)"; \
+				git log "$$br" --format="%(trailers:key=Signed-off-by,valueonly)" | sort -u; \
+			done; \
+		else \
+			echo "==> main ($$(git rev-parse --abbrev-ref HEAD))"; \
+			git log --format="%(trailers:key=Signed-off-by,valueonly)" | sort -u; \
+		fi; \
+		git submodule foreach --recursive --quiet ' \
+			if [ "$(DCO_ALL_BRANCHES)" = true ]; then \
+				git for-each-ref --format="%(refname:short)" refs/heads/ | while read -r br; do \
+					echo "==> $$name ($$br)"; \
+					git log "$$br" --format="%(trailers:key=Signed-off-by,valueonly)" | sort -u; \
+				done; \
+			else \
+				echo "==> $$name ($$(git rev-parse --abbrev-ref HEAD))"; \
+				git log --format="%(trailers:key=Signed-off-by,valueonly)" | sort -u; \
+			fi; \
+		'; \
+	} | sed 's/^/  /'
 
 checkout-all-main: ## Checkout main branch for main repo and all submodules
 	git checkout main
