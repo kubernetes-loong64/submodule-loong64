@@ -24,7 +24,16 @@ TINI_WORK_BRANCH        ?= loong64-master
 JDK_WORK_BRANCH         ?= main
 
 # Mark targets as phony (not actual files)
-.PHONY: help checkout-all-main checkout-all-work
+.PHONY: help dco dco-all checkout-all-main checkout-all-work
+
+dco: ## Show unique DCO (Signed-off-by) from commit history
+	@git log --format="%(trailers:key=Signed-off-by,valueonly)" | sort -u
+
+dco-all: ## Show unique DCO from main repo and all submodules
+	@{ \
+		git log --format="%(trailers:key=Signed-off-by,valueonly)"; \
+		git submodule foreach --recursive --quiet 'git log --format="%(trailers:key=Signed-off-by,valueonly)"'; \
+	} | sort -u
 
 checkout-all-main: ## Checkout main branch for main repo and all submodules
 	git checkout main
