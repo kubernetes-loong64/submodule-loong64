@@ -26,6 +26,7 @@ coordinate releases across the full stack.
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)             | Container init (tini) for loong64              | `loong64-master`         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)               | JDK (Java Development Kit) container images    | `main`                   |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)           | Apache Maven container images for loong64      | `main`                   |
+| [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)         | Gradle container images for loong64            | `main`                   |
 | [.github](https://github.com/kubernetes-loong64/.github)                       | Shared GitHub configurations                   | `main`                   |
 
 ## Quick Start

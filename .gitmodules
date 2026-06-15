@@ -58,3 +58,7 @@
 	path = maven-loong64
 	url = https://github.com/kubernetes-loong64/maven-loong64.git
 	branch = main
+[submodule "gradle-loong64"]
+	path = gradle-loong64
+	url = https://github.com/kubernetes-loong64/gradle-loong64.git
+	branch = main
