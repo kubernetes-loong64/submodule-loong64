@@ -66,3 +66,7 @@
 	path = runner-tools-base-images-loong64
 	url = https://github.com/kubernetes-loong64/runner-tools-base-images-loong64.git
 	branch = main
+[submodule "gitlab-runner-loong64"]
+	path = gitlab-runner-loong64
+	url = https://github.com/kubernetes-loong64/gitlab-runner-loong64.git
+	branch = main
