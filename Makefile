@@ -10,20 +10,24 @@ help: ## Show help information
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9._-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 # Work branch variables — fill in your branch names
-CLI_WORK_BRANCH         ?= loong64-v29.5.1
-CONTAINERD_WORK_BRANCH  ?= loong64-v2.3.1
-COREDNS_WORK_BRANCH     ?= loong64-v1.14.2
-CRI_TOOLS_WORK_BRANCH   ?= loong64-v1.36.0
-ETCD_WORK_BRANCH        ?= loong64-v3.6.8
-KUBERNETES_WORK_BRANCH  ?= loong64-v1.36.1
-MOBY_WORK_BRANCH        ?= loong64-docker-v29.5.1
-PLUGINS_WORK_BRANCH     ?= loong64-v1.9.1
-RELEASE_WORK_BRANCH     ?= loong64-v0.21.1
-RUNC_WORK_BRANCH        ?= loong64-v1.4.2
-TINI_WORK_BRANCH        ?= loong64-master
-JDK_WORK_BRANCH         ?= main
-MAVEN_WORK_BRANCH       ?= main
-GRADLE_WORK_BRANCH      ?= main
+CLI_WORK_BRANCH                      ?= loong64-v29.5.1
+CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.1
+COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
+CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
+ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
+KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
+MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
+PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
+RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
+RUNC_WORK_BRANCH                     ?= loong64-v1.4.2
+TINI_WORK_BRANCH                     ?= loong64-master
+RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.43
+GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.0.1
+
+# No source code involved
+JDK_WORK_BRANCH                      ?= main
+MAVEN_WORK_BRANCH                    ?= main
+GRADLE_WORK_BRANCH                   ?= main
 
 # DCO control — set to true to list DCO per branch for all branches
 DCO_ALL_BRANCHES ?= false
@@ -85,6 +89,8 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
 	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
+	cd runner-tools-base-images-loong64 && git checkout $(RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH) || :
+	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
 	cd jdk-loong64 && git checkout $(JDK_WORK_BRANCH) || :
 	cd maven-loong64 && git checkout $(MAVEN_WORK_BRANCH) || :
 	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
