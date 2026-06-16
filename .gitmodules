@@ -62,3 +62,7 @@
 	path = gradle-loong64
 	url = https://github.com/kubernetes-loong64/gradle-loong64.git
 	branch = main
+[submodule "runner-tools-base-images-loong64"]
+	path = runner-tools-base-images-loong64
+	url = https://github.com/kubernetes-loong64/runner-tools-base-images-loong64.git
+	branch = main
