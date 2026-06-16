@@ -68,6 +68,13 @@ make checkout-all-main
 
 详细提交规范请参阅 [AGENTS.md](AGENTS.md)。
 
+## 文档
+
+> 适用于：moby-loong64、tini-loong64、cli-loong64、runc-loong64、containerd-loong64
+
+- [Install containerd and docker binaries on LoongArch](https://xuxiaowei.io/t/754)
+- [Install containerd and docker RPM packages on LoongArch](https://xuxiaowei.io/t/811)
+
 ## 许可证
 
 [Apache License 2.0](LICENSE)
