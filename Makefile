@@ -21,7 +21,7 @@ PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
 RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.4.2
 TINI_WORK_BRANCH                     ?= loong64-master
-RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.43
+RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.45
 GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.0.1
 
 # No source code involved
