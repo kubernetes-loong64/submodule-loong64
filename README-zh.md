@@ -20,7 +20,7 @@
 | [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                 | `loong64-docker-v29.5.1` |
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes 网络插件 loong64 移植               | `loong64-v1.9.1`         |
 | [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | 发布工具和制品 loong64 移植                       | `loong64-v0.21.1`        |
-| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                  | `loong64-v1.4.2`         |
+| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                  | `loong64-v1.4.3`         |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | 仓库模板                                     | `main`                   |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | 容器 init (tini) loong64 移植                | `loong64-master`         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java 开发工具包) LoongArch64 容器镜像        | `main`                   |

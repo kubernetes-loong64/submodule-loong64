@@ -21,7 +21,7 @@ coordinate releases across the full stack.
 | [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) for loong64                                   | `loong64-docker-v29.5.1` |
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes network plugins for loong64                      | `loong64-v1.9.1`         |
 | [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | Release tooling and artifacts for loong64                   | `loong64-v0.21.1`        |
-| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | Container runtime (runc) for loong64                        | `loong64-v1.4.2`         |
+| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | Container runtime (runc) for loong64                        | `loong64-v1.4.3`         |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | Repository template                                         | `main`                   |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | Container init (tini) for loong64                           | `loong64-master`         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java Development Kit) container images                 | `main`                   |
