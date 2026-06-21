@@ -11,19 +11,20 @@ help: ## Show help information
 
 # Work branch variables — fill in your branch names
 CLI_WORK_BRANCH                      ?= loong64-v29.5.1
+COMPOSE_WORK_BRANCH                  ?= loong64-v5.1.4
 CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.1
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
 CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
 ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
+GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.0
+JENKINS_WORK_BRANCH                  ?= loong64-2.569
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
 MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
 PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
 RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.4.3
-TINI_WORK_BRANCH                     ?= loong64-master
 RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.45
-GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.0
-JENKINS_WORK_BRANCH                  ?= loong64-2.569
+TINI_WORK_BRANCH                     ?= loong64-master
 
 # No source code involved
 JDK_WORK_BRANCH                      ?= main
@@ -79,20 +80,21 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	git checkout $(MAIN_WORK_BRANCH)
 	cd .github && git checkout $(DOT_GITHUB_WORK_BRANCH) || :
 	cd cli-loong64 && git checkout $(CLI_WORK_BRANCH) || :
+	cd compose-loong64 && git checkout $(COMPOSE_WORK_BRANCH) || :
 	cd containerd-loong64 && git checkout $(CONTAINERD_WORK_BRANCH) || :
 	cd coredns-loong64 && git checkout $(COREDNS_WORK_BRANCH) || :
 	cd cri-tools-loong64 && git checkout $(CRI_TOOLS_WORK_BRANCH) || :
 	cd etcd-loong64 && git checkout $(ETCD_WORK_BRANCH) || :
+	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
+	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd kubernetes-loong64 && git checkout $(KUBERNETES_WORK_BRANCH) || :
 	cd moby-loong64 && git checkout $(MOBY_WORK_BRANCH) || :
 	cd plugins-loong64 && git checkout $(PLUGINS_WORK_BRANCH) || :
 	cd release-loong64 && git checkout $(RELEASE_WORK_BRANCH) || :
 	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
+	cd runner-tools-base-images-loong64 && git checkout $(RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH) || :
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
 	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
-	cd runner-tools-base-images-loong64 && git checkout $(RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH) || :
-	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
-	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd jdk-loong64 && git checkout $(JDK_WORK_BRANCH) || :
 	cd maven-loong64 && git checkout $(MAVEN_WORK_BRANCH) || :
 	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
