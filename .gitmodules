@@ -74,3 +74,7 @@
 	path = jenkins-loong64
 	url = https://github.com/kubernetes-loong64/jenkins-loong64.git
 	branch = main
+[submodule "compose-loong64"]
+	path = compose-loong64
+	url = https://github.com/kubernetes-loong64/compose-loong64.git
+	branch = main
