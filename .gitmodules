@@ -70,3 +70,7 @@
 	path = gitlab-runner-loong64
 	url = https://github.com/kubernetes-loong64/gitlab-runner-loong64.git
 	branch = main
+[submodule "jenkins-loong64"]
+	path = jenkins-loong64
+	url = https://github.com/kubernetes-loong64/jenkins-loong64.git
+	branch = main
