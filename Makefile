@@ -23,6 +23,7 @@ RUNC_WORK_BRANCH                     ?= loong64-v1.4.3
 TINI_WORK_BRANCH                     ?= loong64-master
 RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.45
 GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.0
+JENKINS_WORK_BRANCH                  ?= loong64-2.569
 
 # No source code involved
 JDK_WORK_BRANCH                      ?= main
@@ -91,6 +92,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
 	cd runner-tools-base-images-loong64 && git checkout $(RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH) || :
 	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
+	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd jdk-loong64 && git checkout $(JDK_WORK_BRANCH) || :
 	cd maven-loong64 && git checkout $(MAVEN_WORK_BRANCH) || :
 	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
