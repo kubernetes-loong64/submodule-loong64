@@ -29,6 +29,7 @@ coordinate releases across the full stack.
 | [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle container images for loong64                         | `main`                   |
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper base images for loong64                | `loong64-v0.0.45`        |
 | [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper container image porting to LoongArch64 | `loong64-v19.1.0`        |
+| [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins container images for loong64                        | `main`                   |
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | Shared GitHub configurations                                | `main`                   |
 
 ## Quick Start

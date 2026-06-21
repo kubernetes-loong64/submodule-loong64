@@ -28,6 +28,7 @@
 | [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                  | `main`                   |
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper 基础镜像 loong64 移植     | `loong64-v0.0.45`        |
 | [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper 容器镜像 LoongArch64 移植 | `loong64-v19.1.0`        |
+| [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                 | `main`                   |
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                             | `main`                   |
 
 ## 快速开始
