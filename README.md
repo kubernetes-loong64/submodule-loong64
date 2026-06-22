@@ -28,6 +28,7 @@ coordinate releases across the full stack.
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | Container init (tini) for loong64                           | `loong64-master`         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java Development Kit) container images                 | `main`                   |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven container images for loong64                   | `main`                   |
+| [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager container images for loong64       | `loong64-3.93.1`         |
 | [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle container images for loong64                         | `main`                   |
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper base images for loong64                | `loong64-v0.0.45`        |
 | [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper container image porting to LoongArch64 | `loong64-v19.1.0`        |
