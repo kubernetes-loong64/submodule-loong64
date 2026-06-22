@@ -14,6 +14,7 @@ coordinate releases across the full stack.
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|--------------------------|
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes mainline port to loong64                         | `loong64-v1.36.1`        |
 | [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI for loong64                                      | `loong64-v29.5.1`        |
+| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose for loong64                                  | `loong64-v5.1.4`         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | Container runtime (containerd) for loong64                  | `loong64-v2.3.1`         |
 | [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | Cluster DNS (CoreDNS) for loong64                           | `loong64-v1.14.2`        |
 | [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI command-line tools for loong64                          | `loong64-v1.36.0`        |
