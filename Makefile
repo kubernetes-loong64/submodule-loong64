@@ -20,6 +20,7 @@ GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.0
 JENKINS_WORK_BRANCH                  ?= loong64-2.569
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
 MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
+OSSUTIL_WORK_BRANCH                  ?= loong64-v1.7.19
 PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
 RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.4.3
@@ -89,6 +90,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd kubernetes-loong64 && git checkout $(KUBERNETES_WORK_BRANCH) || :
 	cd moby-loong64 && git checkout $(MOBY_WORK_BRANCH) || :
+	cd ossutil-loong64 && git checkout $(OSSUTIL_WORK_BRANCH) || :
 	cd plugins-loong64 && git checkout $(PLUGINS_WORK_BRANCH) || :
 	cd release-loong64 && git checkout $(RELEASE_WORK_BRANCH) || :
 	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
