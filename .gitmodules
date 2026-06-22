@@ -78,3 +78,7 @@
 	path = compose-loong64
 	url = https://github.com/kubernetes-loong64/compose-loong64.git
 	branch = main
+[submodule "ossutil-loong64"]
+	path = ossutil-loong64
+	url = https://github.com/kubernetes-loong64/ossutil-loong64.git
+	branch = main
