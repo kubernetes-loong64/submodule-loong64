@@ -82,3 +82,7 @@
 	path = ossutil-loong64
 	url = https://github.com/kubernetes-loong64/ossutil-loong64.git
 	branch = main
+[submodule "nexus-loong64"]
+	path = nexus-loong64
+	url = https://github.com/kubernetes-loong64/nexus-loong64.git
+	branch = main
