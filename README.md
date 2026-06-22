@@ -20,6 +20,7 @@ coordinate releases across the full stack.
 | [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI command-line tools for loong64                          | `loong64-v1.36.0`        |
 | [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)                                         | Distributed key-value store (etcd) for loong64              | `loong64-v3.6.8`         |
 | [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) for loong64                                   | `loong64-docker-v29.5.1` |
+| [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil (Alibaba Cloud OSS CLI) for loong64                 | `loong64-v1.7.19`        |
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes network plugins for loong64                      | `loong64-v1.9.1`         |
 | [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | Release tooling and artifacts for loong64                   | `loong64-v0.21.1`        |
 | [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | Container runtime (runc) for loong64                        | `loong64-v1.4.3`         |
