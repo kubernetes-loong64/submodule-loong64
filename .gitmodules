@@ -86,3 +86,7 @@
 	path = nexus-loong64
 	url = https://github.com/kubernetes-loong64/nexus-loong64.git
 	branch = main
+[submodule "minio-loong64"]
+	path = minio-loong64
+	url = https://github.com/kubernetes-loong64/minio-loong64.git
+	branch = main
