@@ -19,6 +19,7 @@ ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
 GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.0
 JENKINS_WORK_BRANCH                  ?= loong64-2.569
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
+MINIO_WORK_BRANCH                    ?= loong64-2026-02-12T20-18-48Z
 MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
 NEXUS_WORK_BRANCH                    ?= loong64-3.93.1
 OSSUTIL_WORK_BRANCH                  ?= loong64-v1.7.19
@@ -90,6 +91,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
 	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd kubernetes-loong64 && git checkout $(KUBERNETES_WORK_BRANCH) || :
+	cd minio-loong64 && git checkout $(MINIO_WORK_BRANCH) || :
 	cd moby-loong64 && git checkout $(MOBY_WORK_BRANCH) || :
 	cd nexus-loong64 && git checkout $(NEXUS_WORK_BRANCH) || :
 	cd ossutil-loong64 && git checkout $(OSSUTIL_WORK_BRANCH) || :
