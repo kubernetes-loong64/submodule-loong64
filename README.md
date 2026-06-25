@@ -19,7 +19,7 @@ coordinate releases across the full stack.
 | [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | Cluster DNS (CoreDNS) for loong64                           | `loong64-v1.14.2`              |
 | [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI command-line tools for loong64                          | `loong64-v1.36.0`              |
 | [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)                                         | Distributed key-value store (etcd) for loong64              | `loong64-v3.6.8`               |
-| [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper container image porting to LoongArch64 | `loong64-v19.1.0`              |
+| [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper container image porting to LoongArch64 | `loong64-v19.1.1`              |
 | [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle container images for loong64                         | `main`                         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java Development Kit) container images                 | `main`                         |
 | [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins container images for loong64                        | `loong64-2.570`                |
