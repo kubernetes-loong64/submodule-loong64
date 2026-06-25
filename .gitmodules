@@ -90,3 +90,7 @@
 	path = minio-loong64
 	url = https://github.com/kubernetes-loong64/minio-loong64.git
 	branch = main
+[submodule "redis-loong64"]
+	path = redis-loong64
+	url = https://github.com/kubernetes-loong64/redis-loong64.git
+	branch = main
