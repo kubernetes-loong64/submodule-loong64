@@ -94,3 +94,7 @@
 	path = redis-loong64
 	url = https://github.com/kubernetes-loong64/redis-loong64.git
 	branch = main
+[submodule "valkey-loong64"]
+	path = valkey-loong64
+	url = https://github.com/kubernetes-loong64/valkey-loong64.git
+	branch = main
