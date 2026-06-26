@@ -12,7 +12,7 @@
 | 子模块                                                                                                        | 说明                                        | 工作分支                           |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------|--------------------------------|
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                              | `main`                         |
-| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                     | `loong64-v29.5.1`              |
+| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                     | `loong64-v29.6.1`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                 | `loong64-v5.2.0`               |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植             | `loong64-v2.3.1`               |
 | [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | 集群 DNS (CoreDNS) loong64 移植               | `loong64-v1.14.2`              |
@@ -25,7 +25,7 @@
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                 | `loong64-v1.36.1`              |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven LoongArch64 容器镜像             | `main`                         |
 | [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO 服务器和 mc (MinIO Client) loong64 移植   | `loong64-2026-02-12T20-18-48Z` |
-| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                  | `loong64-docker-v29.5.1`       |
+| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                  | `loong64-docker-v29.6.1`       |
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager LoongArch64 容器镜像 | `loong64-3.93.2`               |
 | [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                    | `loong64-1.31.2`               |
 | [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil（阿里云 OSS 命令行工具）loong64 移植          | `loong64-v1.7.19`              |

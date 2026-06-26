@@ -13,7 +13,7 @@ coordinate releases across the full stack.
 | Submodule                                                                                                  | Description                                                 | Work Branch                    |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|--------------------------------|
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | Shared GitHub configurations                                | `main`                         |
-| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI for loong64                                      | `loong64-v29.5.1`              |
+| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI for loong64                                      | `loong64-v29.6.1`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose for loong64                                  | `loong64-v5.2.0`               |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | Container runtime (containerd) for loong64                  | `loong64-v2.3.1`               |
 | [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | Cluster DNS (CoreDNS) for loong64                           | `loong64-v1.14.2`              |
@@ -26,7 +26,7 @@ coordinate releases across the full stack.
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes mainline port to loong64                         | `loong64-v1.36.1`              |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven container images for loong64                   | `main`                         |
 | [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO server and mc (MinIO Client) for loong64              | `loong64-2026-02-12T20-18-48Z` |
-| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) for loong64                                   | `loong64-docker-v29.5.1`       |
+| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) for loong64                                   | `loong64-docker-v29.6.1`       |
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager container images for loong64       | `loong64-3.93.2`               |
 | [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx container images for loong64                          | `loong64-1.31.2`               |
 | [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil (Alibaba Cloud OSS CLI) for loong64                 | `loong64-v1.7.19`              |

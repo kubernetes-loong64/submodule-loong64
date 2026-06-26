@@ -10,7 +10,7 @@ help: ## Show help information
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9._-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 # Work branch variables — fill in your branch names
-CLI_WORK_BRANCH                      ?= loong64-v29.5.1
+CLI_WORK_BRANCH                      ?= loong64-v29.6.1
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.2.0
 CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.1
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
@@ -20,7 +20,7 @@ GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.1
 JENKINS_WORK_BRANCH                  ?= loong64-2.570
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
 MINIO_WORK_BRANCH                    ?= loong64-2026-02-12T20-18-48Z
-MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
+MOBY_WORK_BRANCH                     ?= loong64-docker-v29.6.1
 NEXUS_WORK_BRANCH                    ?= loong64-3.93.2
 NGINX_WORK_BRANCH                    ?= loong64-1.31.2
 OSSUTIL_WORK_BRANCH                  ?= loong64-v1.7.19
