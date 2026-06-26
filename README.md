@@ -28,6 +28,7 @@ coordinate releases across the full stack.
 | [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO server and mc (MinIO Client) for loong64              | `loong64-2026-02-12T20-18-48Z` |
 | [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) for loong64                                   | `loong64-docker-v29.5.1`       |
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager container images for loong64       | `loong64-3.93.2`               |
+| [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx container images for loong64                          | `loong64-1.31.2`               |
 | [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil (Alibaba Cloud OSS CLI) for loong64                 | `loong64-v1.7.19`              |
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes network plugins for loong64                      | `loong64-v1.9.1`               |
 | [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis container images for loong64                          | `loong64-v8.8.0`               |
