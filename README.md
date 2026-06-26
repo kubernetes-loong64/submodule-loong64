@@ -30,11 +30,13 @@ coordinate releases across the full stack.
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager container images for loong64       | `loong64-3.93.2`               |
 | [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil (Alibaba Cloud OSS CLI) for loong64                 | `loong64-v1.7.19`              |
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes network plugins for loong64                      | `loong64-v1.9.1`               |
+| [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis container images for loong64                          | `loong64-v8.8.0`               |
 | [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | Release tooling and artifacts for loong64                   | `loong64-v0.21.1`              |
 | [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | Container runtime (runc) for loong64                        | `loong64-v1.4.3`               |
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper base images for loong64                | `loong64-v0.0.45`              |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | Repository template                                         | `main`                         |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | Container init (tini) for loong64                           | `loong64-master`               |
+| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey container images for loong64                         | `loong64-9.1.0`                |
 
 ## Quick Start
 

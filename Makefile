@@ -24,10 +24,12 @@ MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
 NEXUS_WORK_BRANCH                    ?= loong64-3.93.2
 OSSUTIL_WORK_BRANCH                  ?= loong64-v1.7.19
 PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
+REDIS_WORK_BRANCH                    ?= loong64-v8.8.0
 RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.4.3
 RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.45
 TINI_WORK_BRANCH                     ?= loong64-master
+VALKEY_WORK_BRANCH                   ?= loong64-9.1.0
 
 # No source code involved
 JDK_WORK_BRANCH                      ?= main
@@ -96,11 +98,13 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd nexus-loong64 && git checkout $(NEXUS_WORK_BRANCH) || :
 	cd ossutil-loong64 && git checkout $(OSSUTIL_WORK_BRANCH) || :
 	cd plugins-loong64 && git checkout $(PLUGINS_WORK_BRANCH) || :
+	cd redis-loong64 && git checkout $(REDIS_WORK_BRANCH) || :
 	cd release-loong64 && git checkout $(RELEASE_WORK_BRANCH) || :
 	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
 	cd runner-tools-base-images-loong64 && git checkout $(RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH) || :
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
 	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
+	cd valkey-loong64 && git checkout $(VALKEY_WORK_BRANCH) || :
 	cd jdk-loong64 && git checkout $(JDK_WORK_BRANCH) || :
 	cd maven-loong64 && git checkout $(MAVEN_WORK_BRANCH) || :
 	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
