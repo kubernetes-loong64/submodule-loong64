@@ -98,3 +98,7 @@
 	path = valkey-loong64
 	url = https://github.com/kubernetes-loong64/valkey-loong64.git
 	branch = main
+[submodule "nginx-loong64"]
+	path = nginx-loong64
+	url = https://github.com/kubernetes-loong64/nginx-loong64.git
+	branch = main
