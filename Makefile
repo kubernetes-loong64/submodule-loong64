@@ -22,6 +22,7 @@ KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
 MINIO_WORK_BRANCH                    ?= loong64-2026-02-12T20-18-48Z
 MOBY_WORK_BRANCH                     ?= loong64-docker-v29.5.1
 NEXUS_WORK_BRANCH                    ?= loong64-3.93.2
+NGINX_WORK_BRANCH                    ?= loong64-1.31.2
 OSSUTIL_WORK_BRANCH                  ?= loong64-v1.7.19
 PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
 REDIS_WORK_BRANCH                    ?= loong64-v8.8.0
@@ -96,6 +97,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd minio-loong64 && git checkout $(MINIO_WORK_BRANCH) || :
 	cd moby-loong64 && git checkout $(MOBY_WORK_BRANCH) || :
 	cd nexus-loong64 && git checkout $(NEXUS_WORK_BRANCH) || :
+	cd nginx-loong64 && git checkout $(NGINX_WORK_BRANCH) || :
 	cd ossutil-loong64 && git checkout $(OSSUTIL_WORK_BRANCH) || :
 	cd plugins-loong64 && git checkout $(PLUGINS_WORK_BRANCH) || :
 	cd redis-loong64 && git checkout $(REDIS_WORK_BRANCH) || :
