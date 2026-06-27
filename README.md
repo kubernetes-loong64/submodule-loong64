@@ -79,10 +79,11 @@ See [AGENTS.md](AGENTS.md) for detailed commit conventions.
 
 ## Documentation
 
-> Applies to: moby-loong64, tini-loong64, cli-loong64, runc-loong64, containerd-loong64
-
 - [Install containerd and docker binaries on LoongArch](https://xuxiaowei.io/t/754)
 - [Install containerd and docker RPM packages on LoongArch](https://xuxiaowei.io/t/811)
+- [Install containerd and docker RPM packages from RPM repository on LoongArch](https://xuxiaowei.io/t/812)
+- [Install Kubernetes on LoongArch (loong64)](https://xuxiaowei.io/t/858)
+- [Video: Loongson 3B6000 install Kubernetes 1.30.1 with containerd 2.3.1](https://www.bilibili.com/video/BV1VK7H68EtF/)
 
 ## License
 

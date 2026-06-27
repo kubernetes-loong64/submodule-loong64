@@ -78,10 +78,11 @@ make checkout-all-main
 
 ## 文档
 
-> 适用于：moby-loong64、tini-loong64、cli-loong64、runc-loong64、containerd-loong64
-
-- [Install containerd and docker binaries on LoongArch](https://xuxiaowei.io/t/754)
-- [Install containerd and docker RPM packages on LoongArch](https://xuxiaowei.io/t/811)
+- [LoongArch64 (loong64) 龙芯架构：从 GitHub 安装 github.com/kubernetes-loong64 编译的 containerd、docker 二进制](https://xuxiaowei.io/t/754)
+- [LoongArch64 (loong64) 龙芯架构：从 GitHub 安装 github.com/kubernetes-loong64 编译的 containerd、docker rpm 包](https://xuxiaowei.io/t/811)
+- [LoongArch64 (loong64) 龙芯架构：从 rpm 仓库 安装 github.com/kubernetes-loong64 编译的 containerd、docker rpm 包](https://xuxiaowei.io/t/812)
+- [LoongArch64 (loong64) 龙芯架构：安装 Kubernetes](https://xuxiaowei.io/t/858)
+- [视频：龙芯 3B6000 安装 Kubernetes 1.30.1：基于 containerd 2.3.1](https://www.bilibili.com/video/BV1VK7H68EtF/)
 
 ## 许可证
 
