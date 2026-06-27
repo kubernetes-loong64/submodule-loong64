@@ -102,3 +102,7 @@
 	path = nginx-loong64
 	url = https://github.com/kubernetes-loong64/nginx-loong64.git
 	branch = main
+[submodule "debian-loong64"]
+	path = debian-loong64
+	url = https://github.com/kubernetes-loong64/debian-loong64.git
+	branch = main
