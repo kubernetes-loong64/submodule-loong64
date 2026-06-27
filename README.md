@@ -15,6 +15,7 @@ coordinate releases across the full stack.
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | Shared GitHub configurations                                | `main`                         |
 | [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI for loong64                                      | `loong64-v29.6.1`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose for loong64                                  | `loong64-v5.2.0`               |
+| [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | Sync Debian container images to Docker Hub for loong64      | `main`                         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | Container runtime (containerd) for loong64                  | `loong64-v2.3.2`               |
 | [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | Cluster DNS (CoreDNS) for loong64                           | `loong64-v1.14.2`              |
 | [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI command-line tools for loong64                          | `loong64-v1.36.0`              |

@@ -14,6 +14,7 @@
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                              | `main`                         |
 | [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                     | `loong64-v29.6.1`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                 | `loong64-v5.2.0`               |
+| [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64     | `main`                         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植             | `loong64-v2.3.2`               |
 | [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | 集群 DNS (CoreDNS) loong64 移植               | `loong64-v1.14.2`              |
 | [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI 命令行工具 loong64 移植                      | `loong64-v1.36.0`              |
