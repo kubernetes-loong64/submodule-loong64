@@ -106,3 +106,7 @@
 	path = debian-loong64
 	url = https://github.com/kubernetes-loong64/debian-loong64.git
 	branch = main
+[submodule "git-loong64"]
+	path = git-loong64
+	url = https://github.com/kubernetes-loong64/git-loong64.git
+	branch = main
