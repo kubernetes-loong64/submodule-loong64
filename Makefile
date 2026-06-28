@@ -16,6 +16,7 @@ CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.2
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
 CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
 ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
+GIT_WORK_BRANCH                      ?= loong64-v2.54.0
 GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.1
 JENKINS_WORK_BRANCH                  ?= loong64-2.570
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
@@ -91,6 +92,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd coredns-loong64 && git checkout $(COREDNS_WORK_BRANCH) || :
 	cd cri-tools-loong64 && git checkout $(CRI_TOOLS_WORK_BRANCH) || :
 	cd etcd-loong64 && git checkout $(ETCD_WORK_BRANCH) || :
+	cd git-loong64 && git checkout $(GIT_WORK_BRANCH) || :
 	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
 	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd kubernetes-loong64 && git checkout $(KUBERNETES_WORK_BRANCH) || :
