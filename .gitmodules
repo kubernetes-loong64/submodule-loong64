@@ -110,3 +110,7 @@
 	path = git-loong64
 	url = https://github.com/kubernetes-loong64/git-loong64.git
 	branch = main
+[submodule "createrepo"]
+	path = createrepo
+	url = https://github.com/kubernetes-loong64/createrepo.git
+	branch = main
