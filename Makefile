@@ -35,9 +35,13 @@ TINI_WORK_BRANCH                     ?= loong64-master
 VALKEY_WORK_BRANCH                   ?= loong64-9.1.0
 
 # No source code involved
-JDK_WORK_BRANCH                      ?= main
-MAVEN_WORK_BRANCH                    ?= main
+DEBIAN_WORK_BRANCH                   ?= main
+DOT_GITHUB_WORK_BRANCH               ?= main
 GRADLE_WORK_BRANCH                   ?= main
+JDK_WORK_BRANCH                      ?= main
+MAIN_WORK_BRANCH                     ?= main
+MAVEN_WORK_BRANCH                    ?= main
+TEMPLATE_WORK_BRANCH                 ?= main
 
 # DCO control — set to true to list DCO per branch for all branches
 DCO_ALL_BRANCHES ?= false
@@ -111,6 +115,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
 	cd tini-loong64 && git checkout $(TINI_WORK_BRANCH) || :
 	cd valkey-loong64 && git checkout $(VALKEY_WORK_BRANCH) || :
+	cd debian-loong64 && git checkout $(DEBIAN_WORK_BRANCH) || :
+	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
 	cd jdk-loong64 && git checkout $(JDK_WORK_BRANCH) || :
 	cd maven-loong64 && git checkout $(MAVEN_WORK_BRANCH) || :
-	cd gradle-loong64 && git checkout $(GRADLE_WORK_BRANCH) || :
