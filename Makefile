@@ -14,6 +14,7 @@ CLI_WORK_BRANCH                      ?= loong64-v29.6.1
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.2.0
 CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.2
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
+CREATEREPO_WORK_BRANCH               ?= 1.2.4
 CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
 ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
 GIT_WORK_BRANCH                      ?= loong64-v2.54.0
@@ -90,6 +91,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd compose-loong64 && git checkout $(COMPOSE_WORK_BRANCH) || :
 	cd containerd-loong64 && git checkout $(CONTAINERD_WORK_BRANCH) || :
 	cd coredns-loong64 && git checkout $(COREDNS_WORK_BRANCH) || :
+	cd createrepo && git checkout $(CREATEREPO_WORK_BRANCH) || :
 	cd cri-tools-loong64 && git checkout $(CRI_TOOLS_WORK_BRANCH) || :
 	cd etcd-loong64 && git checkout $(ETCD_WORK_BRANCH) || :
 	cd git-loong64 && git checkout $(GIT_WORK_BRANCH) || :
