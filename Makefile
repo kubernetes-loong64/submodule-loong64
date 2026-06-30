@@ -29,6 +29,7 @@ OSSUTIL_WORK_BRANCH                  ?= loong64-v1.7.19
 PLUGINS_WORK_BRANCH                  ?= loong64-v1.9.1
 REDIS_WORK_BRANCH                    ?= loong64-v8.8.0
 RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
+REPREPRO_WORK_BRANCH                 ?= reprepro-5.5.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.4.3
 RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.45
 TINI_WORK_BRANCH                     ?= loong64-master
@@ -110,6 +111,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd plugins-loong64 && git checkout $(PLUGINS_WORK_BRANCH) || :
 	cd redis-loong64 && git checkout $(REDIS_WORK_BRANCH) || :
 	cd release-loong64 && git checkout $(RELEASE_WORK_BRANCH) || :
+	cd reprepro && git checkout $(REPREPRO_WORK_BRANCH) || :
 	cd runc-loong64 && git checkout $(RUNC_WORK_BRANCH) || :
 	cd runner-tools-base-images-loong64 && git checkout $(RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH) || :
 	cd template-loong64 && git checkout $(TEMPLATE_WORK_BRANCH) || :
