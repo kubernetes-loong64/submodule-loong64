@@ -24,7 +24,7 @@
 | [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper 容器镜像 LoongArch64 移植              | `loong64-v19.1.1`              |
 | [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                               | `main`                         |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java 开发工具包) LoongArch64 容器镜像                     | `main`                         |
-| [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                              | `loong64-2.570`                |
+| [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                              | `loong64-2.571`                |
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                             | `loong64-v1.36.1`              |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven LoongArch64 容器镜像                         | `main`                         |
 | [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO 服务器和 mc (MinIO Client) loong64 移植               | `loong64-2026-02-12T20-18-48Z` |
