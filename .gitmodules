@@ -114,3 +114,7 @@
 	path = createrepo
 	url = https://github.com/kubernetes-loong64/createrepo.git
 	branch = main
+[submodule "reprepro"]
+	path = reprepro
+	url = https://github.com/kubernetes-loong64/reprepro.git
+	branch = main
