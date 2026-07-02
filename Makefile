@@ -11,7 +11,7 @@ help: ## Show help information
 
 # Work branch variables — fill in your branch names
 CLI_WORK_BRANCH                      ?= loong64-v29.6.1
-COMPOSE_WORK_BRANCH                  ?= loong64-v5.2.0
+COMPOSE_WORK_BRANCH                  ?= loong64-v5.3.0
 CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.2
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
 CREATEREPO_WORK_BRANCH               ?= 1.2.4

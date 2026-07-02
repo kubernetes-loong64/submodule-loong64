@@ -13,7 +13,7 @@
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|--------------------------------|
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                                          | `main`                         |
 | [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                 | `loong64-v29.6.1`              |
-| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                             | `loong64-v5.2.0`               |
+| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                             | `loong64-v5.3.0`               |
 | [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64                 | `main`                         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植                         | `loong64-v2.3.2`               |
 | [createrepo](https://github.com/kubernetes-loong64/createrepo)                                             | createrepo_c 容器镜像，用于生成 RPM 仓库元数据（amd64、arm64、loong64） | `1.2.4`                        |
