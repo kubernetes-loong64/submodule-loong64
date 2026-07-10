@@ -12,7 +12,7 @@ help: ## Show help information
 # Work branch variables — fill in your branch names
 CLI_WORK_BRANCH                      ?= loong64-v29.6.1
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.3.1
-CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.2
+CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.3
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
 CREATEREPO_WORK_BRANCH               ?= 1.2.4
 CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
