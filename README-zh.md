@@ -36,7 +36,7 @@
 | [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis 容器镜像 loong64 移植                                 | `loong64-v8.8.0`               |
 | [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | 发布工具和制品 loong64 移植                                    | `loong64-v0.21.1`              |
 | [reprepro](https://github.com/kubernetes-loong64/reprepro)                                                 | reprepro 容器镜像，用于生成 deb 仓库元数据（amd64、arm64、loong64）     | `reprepro-5.5.1`               |
-| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                               | `loong64-v1.5.0`               |
+| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                               | `loong64-v1.5.1`               |
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper 基础镜像 loong64 移植                  | `loong64-v0.0.45`              |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | 仓库模板                                                  | `main`                         |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | 容器 init (tini) loong64 移植                             | `loong64-master`               |
