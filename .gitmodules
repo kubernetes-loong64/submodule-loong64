@@ -118,3 +118,7 @@
 	path = reprepro
 	url = https://github.com/kubernetes-loong64/reprepro.git
 	branch = main
+[submodule "htop-loong64"]
+	path = htop-loong64
+	url = https://github.com/kubernetes-loong64/htop-loong64.git
+	branch = main
