@@ -122,3 +122,7 @@
 	path = htop-loong64
 	url = https://github.com/kubernetes-loong64/htop-loong64.git
 	branch = main
+[submodule "buildx-loong64"]
+	path = buildx-loong64
+	url = https://github.com/kubernetes-loong64/buildx-loong64.git
+	branch = main
