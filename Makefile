@@ -19,6 +19,7 @@ CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
 ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
 GIT_WORK_BRANCH                      ?= loong64-v2.54.0
 GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.1.1
+HTOP_WORK_BRANCH                     ?= loong64-3.5.1
 JENKINS_WORK_BRANCH                  ?= loong64-2.573
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
 MINIO_WORK_BRANCH                    ?= loong64-2026-02-12T20-18-48Z
@@ -101,6 +102,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd etcd-loong64 && git checkout $(ETCD_WORK_BRANCH) || :
 	cd git-loong64 && git checkout $(GIT_WORK_BRANCH) || :
 	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
+	cd htop-loong64 && git checkout $(HTOP_WORK_BRANCH) || :
 	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd kubernetes-loong64 && git checkout $(KUBERNETES_WORK_BRANCH) || :
 	cd minio-loong64 && git checkout $(MINIO_WORK_BRANCH) || :
