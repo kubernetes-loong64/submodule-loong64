@@ -126,3 +126,7 @@
 	path = buildx-loong64
 	url = https://github.com/kubernetes-loong64/buildx-loong64.git
 	branch = main
+[submodule "node-loong64"]
+	path = node-loong64
+	url = https://github.com/kubernetes-loong64/node-loong64.git
+	branch = main
