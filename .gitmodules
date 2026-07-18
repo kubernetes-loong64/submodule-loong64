@@ -1,132 +1,132 @@
 [submodule "kubernetes-loong64"]
 	path = kubernetes-loong64
-	url = https://github.com/kubernetes-loong64/kubernetes-loong64
+	url = ../kubernetes-loong64.git
     branch = main
 [submodule "release-loong64"]
 	path = release-loong64
-	url = https://github.com/kubernetes-loong64/release-loong64
+	url = ../release-loong64.git
 	branch = main
 [submodule "coredns-loong64"]
 	path = coredns-loong64
-	url = https://github.com/kubernetes-loong64/coredns-loong64
+	url = ../coredns-loong64.git
 	branch = main
 [submodule "etcd-loong64"]
 	path = etcd-loong64
-	url = https://github.com/kubernetes-loong64/etcd-loong64
+	url = ../etcd-loong64.git
 	branch = main
 [submodule "containerd-loong64"]
 	path = containerd-loong64
-	url = https://github.com/kubernetes-loong64/containerd-loong64
+	url = ../containerd-loong64.git
 	branch = main
 [submodule "plugins-loong64"]
 	path = plugins-loong64
-	url = https://github.com/kubernetes-loong64/plugins-loong64
+	url = ../plugins-loong64.git
 	branch = main
 [submodule "cri-tools-loong64"]
 	path = cri-tools-loong64
-	url = https://github.com/kubernetes-loong64/cri-tools-loong64
+	url = ../cri-tools-loong64.git
 	branch = main
 [submodule "template-loong64"]
 	path = template-loong64
-	url = https://github.com/kubernetes-loong64/template-loong64
+	url = ../template-loong64.git
 	branch = main
 [submodule ".github"]
 	path = .github
-	url = https://github.com/kubernetes-loong64/.github
+	url = ../.github.git
 	branch = main
 [submodule "moby-loong64"]
 	path = moby-loong64
-	url = https://github.com/kubernetes-loong64/moby-loong64.git
+	url = ../moby-loong64.git
 	branch = main
 [submodule "runc-loong64"]
 	path = runc-loong64
-	url = https://github.com/kubernetes-loong64/runc-loong64.git
+	url = ../runc-loong64.git
 	branch = main
 [submodule "cli-loong64"]
 	path = cli-loong64
-	url = https://github.com/kubernetes-loong64/cli-loong64.git
+	url = ../cli-loong64.git
 	branch = main
 [submodule "tini-loong64"]
 	path = tini-loong64
-	url = https://github.com/kubernetes-loong64/tini-loong64.git
+	url = ../tini-loong64.git
 	branch = main
 [submodule "jdk-loong64"]
 	path = jdk-loong64
-	url = https://github.com/kubernetes-loong64/jdk-loong64.git
+	url = ../jdk-loong64.git
 	branch = main
 [submodule "maven-loong64"]
 	path = maven-loong64
-	url = https://github.com/kubernetes-loong64/maven-loong64.git
+	url = ../maven-loong64.git
 	branch = main
 [submodule "gradle-loong64"]
 	path = gradle-loong64
-	url = https://github.com/kubernetes-loong64/gradle-loong64.git
+	url = ../gradle-loong64.git
 	branch = main
 [submodule "runner-tools-base-images-loong64"]
 	path = runner-tools-base-images-loong64
-	url = https://github.com/kubernetes-loong64/runner-tools-base-images-loong64.git
+	url = ../runner-tools-base-images-loong64.git
 	branch = main
 [submodule "gitlab-runner-loong64"]
 	path = gitlab-runner-loong64
-	url = https://github.com/kubernetes-loong64/gitlab-runner-loong64.git
+	url = ../gitlab-runner-loong64.git
 	branch = main
 [submodule "jenkins-loong64"]
 	path = jenkins-loong64
-	url = https://github.com/kubernetes-loong64/jenkins-loong64.git
+	url = ../jenkins-loong64.git
 	branch = main
 [submodule "compose-loong64"]
 	path = compose-loong64
-	url = https://github.com/kubernetes-loong64/compose-loong64.git
+	url = ../compose-loong64.git
 	branch = main
 [submodule "ossutil-loong64"]
 	path = ossutil-loong64
-	url = https://github.com/kubernetes-loong64/ossutil-loong64.git
+	url = ../ossutil-loong64.git
 	branch = main
 [submodule "nexus-loong64"]
 	path = nexus-loong64
-	url = https://github.com/kubernetes-loong64/nexus-loong64.git
+	url = ../nexus-loong64.git
 	branch = main
 [submodule "minio-loong64"]
 	path = minio-loong64
-	url = https://github.com/kubernetes-loong64/minio-loong64.git
+	url = ../minio-loong64.git
 	branch = main
 [submodule "redis-loong64"]
 	path = redis-loong64
-	url = https://github.com/kubernetes-loong64/redis-loong64.git
+	url = ../redis-loong64.git
 	branch = main
 [submodule "valkey-loong64"]
 	path = valkey-loong64
-	url = https://github.com/kubernetes-loong64/valkey-loong64.git
+	url = ../valkey-loong64.git
 	branch = main
 [submodule "nginx-loong64"]
 	path = nginx-loong64
-	url = https://github.com/kubernetes-loong64/nginx-loong64.git
+	url = ../nginx-loong64.git
 	branch = main
 [submodule "debian-loong64"]
 	path = debian-loong64
-	url = https://github.com/kubernetes-loong64/debian-loong64.git
+	url = ../debian-loong64.git
 	branch = main
 [submodule "git-loong64"]
 	path = git-loong64
-	url = https://github.com/kubernetes-loong64/git-loong64.git
+	url = ../git-loong64.git
 	branch = main
 [submodule "createrepo"]
 	path = createrepo
-	url = https://github.com/kubernetes-loong64/createrepo.git
+	url = ../createrepo.git
 	branch = main
 [submodule "reprepro"]
 	path = reprepro
-	url = https://github.com/kubernetes-loong64/reprepro.git
+	url = ../reprepro.git
 	branch = main
 [submodule "htop-loong64"]
 	path = htop-loong64
-	url = https://github.com/kubernetes-loong64/htop-loong64.git
+	url = ../htop-loong64.git
 	branch = main
 [submodule "buildx-loong64"]
 	path = buildx-loong64
-	url = https://github.com/kubernetes-loong64/buildx-loong64.git
+	url = ../buildx-loong64.git
 	branch = main
 [submodule "node-loong64"]
 	path = node-loong64
-	url = https://github.com/kubernetes-loong64/node-loong64.git
+	url = ../node-loong64.git
 	branch = main
