@@ -9,41 +9,41 @@
 
 ## 组件列表
 
-| 子模块                                                                                                        | 说明                                                    | 工作分支                           |
-|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|--------------------------------|
-| [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                                          | `main`                         |
-| [buildx-loong64](https://github.com/kubernetes-loong64/buildx-loong64)                                     | Docker Buildx loong64 移植                              | `loong64-v0.35.0`              |
-| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                 | `loong64-v29.6.1`              |
-| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                             | `loong64-v5.3.1`               |
-| [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64                 | `main`                         |
-| [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植                         | `loong64-v2.3.3`               |
+| 子模块                                                                                                     | 说明                                                                    | 工作分支                       |
+|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
+| [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                                                        | `main`                         |
+| [buildx-loong64](https://github.com/kubernetes-loong64/buildx-loong64)                                     | Docker Buildx loong64 移植                                              | `loong64-v0.35.0`              |
+| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.6.1`              |
+| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                                             | `loong64-v5.3.1`               |
+| [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64                          | `main`                         |
+| [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植                                    | `loong64-v2.3.3`               |
 | [createrepo](https://github.com/kubernetes-loong64/createrepo)                                             | createrepo_c 容器镜像，用于生成 RPM 仓库元数据（amd64、arm64、loong64） | `1.2.4`                        |
-| [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | 集群 DNS (CoreDNS) loong64 移植                           | `loong64-v1.14.2`              |
-| [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI 命令行工具 loong64 移植                                  | `loong64-v1.36.0`              |
-| [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)                                         | 分布式键值存储 (etcd) loong64 移植                             | `loong64-v3.6.8`               |
-| [git-loong64](https://github.com/kubernetes-loong64/git-loong64)                                           | Git 版本控制系统容器镜像 loong64 移植                             | `loong64-v2.54.0`              |
-| [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper 容器镜像 LoongArch64 移植              | `loong64-v19.2.0`              |
-| [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                               | `main`                         |
-| [htop-loong64](https://github.com/kubernetes-loong64/htop-loong64)                                         | 交互式进程查看器 (htop) loong64 移植                            | `loong64-3.5.1`                |
-| [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java 开发工具包) LoongArch64 容器镜像                     | `main`                         |
-| [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                              | `loong64-2.573`                |
-| [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                             | `loong64-v1.36.1`              |
-| [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven LoongArch64 容器镜像                         | `main`                         |
-| [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO 服务器和 mc (MinIO Client) loong64 移植               | `loong64-2026-02-12T20-18-48Z` |
-| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                              | `loong64-docker-v29.6.2`       |
-| [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager LoongArch64 容器镜像             | `loong64-3.94.0`               |
-| [node-loong64](https://github.com/kubernetes-loong64/node-loong64)                                         | Node.js LoongArch64 容器镜像                              | `loong64-v24.18.0`             |
-| [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                                | `loong64-1.31.3`               |
-| [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil（阿里云 OSS 命令行工具）loong64 移植                      | `loong64-v1.7.19`              |
-| [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes 网络插件 loong64 移植                            | `loong64-v1.9.1`               |
-| [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis 容器镜像 loong64 移植                                 | `loong64-v8.8.0`               |
-| [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | 发布工具和制品 loong64 移植                                    | `loong64-v0.21.1`              |
+| [coredns-loong64](https://github.com/kubernetes-loong64/coredns-loong64)                                   | 集群 DNS (CoreDNS) loong64 移植                                         | `loong64-v1.14.2`              |
+| [cri-tools-loong64](https://github.com/kubernetes-loong64/cri-tools-loong64)                               | CRI 命令行工具 loong64 移植                                             | `loong64-v1.36.0`              |
+| [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)                                         | 分布式键值存储 (etcd) loong64 移植                                      | `loong64-v3.6.8`               |
+| [git-loong64](https://github.com/kubernetes-loong64/git-loong64)                                           | Git 版本控制系统容器镜像 loong64 移植                                   | `loong64-v2.54.0`              |
+| [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper 容器镜像 LoongArch64 移植                          | `loong64-v19.2.0`              |
+| [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                                             | `main`                         |
+| [htop-loong64](https://github.com/kubernetes-loong64/htop-loong64)                                         | 交互式进程查看器 (htop) loong64 移植                                    | `loong64-3.5.2`                |
+| [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java 开发工具包) LoongArch64 容器镜像                              | `main`                         |
+| [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                                            | `loong64-2.573`                |
+| [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                                          | `loong64-v1.36.1`              |
+| [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven LoongArch64 容器镜像                                       | `main`                         |
+| [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO 服务器和 mc (MinIO Client) loong64 移植                           | `loong64-2026-02-12T20-18-48Z` |
+| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                                              | `loong64-docker-v29.6.2`       |
+| [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager LoongArch64 容器镜像                           | `loong64-3.94.0`               |
+| [node-loong64](https://github.com/kubernetes-loong64/node-loong64)                                         | Node.js LoongArch64 容器镜像                                            | `loong64-v24.18.0`             |
+| [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                                              | `loong64-1.31.3`               |
+| [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil（阿里云 OSS 命令行工具）loong64 移植                            | `loong64-v1.7.19`              |
+| [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes 网络插件 loong64 移植                                        | `loong64-v1.9.1`               |
+| [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis 容器镜像 loong64 移植                                             | `loong64-v8.8.0`               |
+| [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | 发布工具和制品 loong64 移植                                             | `loong64-v0.21.1`              |
 | [reprepro](https://github.com/kubernetes-loong64/reprepro)                                                 | reprepro 容器镜像，用于生成 deb 仓库元数据（amd64、arm64、loong64）     | `reprepro-5.5.1`               |
-| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                               | `loong64-v1.5.1`               |
-| [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper 基础镜像 loong64 移植                  | `loong64-v0.0.47`              |
-| [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | 仓库模板                                                  | `main`                         |
-| [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | 容器 init (tini) loong64 移植                             | `loong64-master`               |
-| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey 容器镜像 loong64 移植                                | `loong64-9.1.0`                |
+| [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                                          | `loong64-v1.5.1`               |
+| [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper 基础镜像 loong64 移植                              | `loong64-v0.0.47`              |
+| [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | 仓库模板                                                                | `main`                         |
+| [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | 容器 init (tini) loong64 移植                                           | `loong64-master`               |
+| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey 容器镜像 loong64 移植                                            | `loong64-9.1.0`                |
 
 ## 快速开始
 
