@@ -12,6 +12,7 @@
 | 子模块                                                                                                     | 说明                                                                    | 工作分支                       |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|--------------------------------|
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                                                        | `main`                         |
+| [actions-runner-loong64](https://github.com/kubernetes-loong64/actions-runner-loong64)                     | GitHub Actions Runner 容器镜像 loong64 移植                             | `loong64-v2.336.0`             |
 | [buildx-loong64](https://github.com/kubernetes-loong64/buildx-loong64)                                     | Docker Buildx loong64 移植                                              | `loong64-v0.35.0`              |
 | [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.7.1`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                                             | `loong64-v5.4.0`               |

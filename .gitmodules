@@ -130,3 +130,7 @@
 	path = node-loong64
 	url = ../node-loong64.git
 	branch = main
+[submodule "actions-runner-loong64"]
+	path = actions-runner-loong64
+	url = https://github.com/kubernetes-loong64/actions-runner-loong64.git
+	branch = main

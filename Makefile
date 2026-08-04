@@ -10,6 +10,7 @@ help: ## Show help information
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9._-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 # Work branch variables — fill in your branch names
+ACTIONS_RUNNER_WORK_BRANCH           ?= loong64-v2.336.0
 BUILDX_WORK_BRANCH                   ?= loong64-v0.35.0
 CLI_WORK_BRANCH                      ?= loong64-v29.7.1
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.4.0
@@ -95,6 +96,7 @@ checkout-all-main: ## Checkout main branch for main repo and all submodules
 checkout-all-work: ## Checkout work branch for main repo and all submodules
 	git checkout $(MAIN_WORK_BRANCH)
 	cd .github && git checkout $(DOT_GITHUB_WORK_BRANCH) || :
+	cd actions-runner-loong64 && git checkout $(ACTIONS_RUNNER_WORK_BRANCH) || :
 	cd buildx-loong64 && git checkout $(BUILDX_WORK_BRANCH) || :
 	cd cli-loong64 && git checkout $(CLI_WORK_BRANCH) || :
 	cd compose-loong64 && git checkout $(COMPOSE_WORK_BRANCH) || :
