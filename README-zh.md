@@ -24,7 +24,7 @@
 | [etcd-loong64](https://github.com/kubernetes-loong64/etcd-loong64)                                         | 分布式键值存储 (etcd) loong64 移植                                      | `loong64-v3.6.8`               |
 | [git-loong64](https://github.com/kubernetes-loong64/git-loong64)                                           | Git 版本控制系统容器镜像 loong64 移植                                   | `loong64-v2.54.0`              |
 | [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper 容器镜像 LoongArch64 移植                          | `loong64-v19.2.1`              |
-| [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                                             | `loong64-9.6.1`                |
+| [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                                             | `loong64-9.7.0`                |
 | [htop-loong64](https://github.com/kubernetes-loong64/htop-loong64)                                         | 交互式进程查看器 (htop) loong64 移植                                    | `loong64-3.5.2`                |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java 开发工具包) LoongArch64 容器镜像                              | `main`                         |
 | [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                                            | `loong64-2.575`                |
