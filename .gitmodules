@@ -134,3 +134,7 @@
 	path = actions-runner-loong64
 	url = https://github.com/kubernetes-loong64/actions-runner-loong64.git
 	branch = main
+[submodule "go-containerregistry-loong64"]
+	path = go-containerregistry-loong64
+	url = https://github.com/kubernetes-loong64/go-containerregistry-loong64.git
+	branch = main

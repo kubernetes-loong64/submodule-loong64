@@ -21,6 +21,7 @@ CRI_TOOLS_WORK_BRANCH                ?= loong64-v1.36.0
 ETCD_WORK_BRANCH                     ?= loong64-v3.6.8
 GIT_WORK_BRANCH                      ?= loong64-v2.54.0
 GITLAB_RUNNER_WORK_BRANCH            ?= loong64-v19.2.1
+GO_CONTAINERREGISTRY_WORK_BRANCH     ?= loong64-v0.21.9
 GRADLE_WORK_BRANCH                   ?= loong64-9.7.0
 HTOP_WORK_BRANCH                     ?= loong64-3.5.2
 JENKINS_WORK_BRANCH                  ?= loong64-2.575
@@ -107,6 +108,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	cd etcd-loong64 && git checkout $(ETCD_WORK_BRANCH) || :
 	cd git-loong64 && git checkout $(GIT_WORK_BRANCH) || :
 	cd gitlab-runner-loong64 && git checkout $(GITLAB_RUNNER_WORK_BRANCH) || :
+	cd go-containerregistry-loong64 && git checkout $(GO_CONTAINERREGISTRY_WORK_BRANCH) || :
 	cd htop-loong64 && git checkout $(HTOP_WORK_BRANCH) || :
 	cd jenkins-loong64 && git checkout $(JENKINS_WORK_BRANCH) || :
 	cd kubernetes-loong64 && git checkout $(KUBERNETES_WORK_BRANCH) || :
