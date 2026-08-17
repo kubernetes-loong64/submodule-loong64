@@ -26,7 +26,7 @@
 | [gitlab-runner-loong64](https://github.com/kubernetes-loong64/gitlab-runner-loong64)                       | gitlab-runner-helper 容器镜像 LoongArch64 移植                          | `loong64-v19.2.2`              |
 | [go-containerregistry-loong64](https://github.com/kubernetes-loong64/go-containerregistry-loong64)         | go-containerregistry CLI 工具 (crane、gcrane、krane) 容器镜像           | `loong64-v0.21.9`              |
 | [gradle-loong64](https://github.com/kubernetes-loong64/gradle-loong64)                                     | Gradle LoongArch64 容器镜像                                             | `loong64-9.7.0`                |
-| [htop-loong64](https://github.com/kubernetes-loong64/htop-loong64)                                         | 交互式进程查看器 (htop) loong64 移植                                    | `loong64-3.5.2`                |
+| [htop-loong64](https://github.com/kubernetes-loong64/htop-loong64)                                         | 交互式进程查看器 (htop) loong64 移植                                    | `loong64-3.5.3`                |
 | [jdk-loong64](https://github.com/kubernetes-loong64/jdk-loong64)                                           | JDK (Java 开发工具包) LoongArch64 容器镜像                              | `main`                         |
 | [jenkins-loong64](https://github.com/kubernetes-loong64/jenkins-loong64)                                   | Jenkins LoongArch64 容器镜像                                            | `loong64-2.577`                |
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                                          | `loong64-v1.36.1`              |
