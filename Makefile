@@ -13,7 +13,7 @@ help: ## Show help information
 ACTIONS_RUNNER_WORK_BRANCH           ?= loong64-v2.336.0
 BUILDX_WORK_BRANCH                   ?= loong64-v0.35.0
 CLI_WORK_BRANCH                      ?= loong64-v29.7.2
-COMPOSE_WORK_BRANCH                  ?= loong64-v5.4.0
+COMPOSE_WORK_BRANCH                  ?= loong64-v5.5.0
 CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.4
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
 CREATEREPO_WORK_BRANCH               ?= 1.2.4
