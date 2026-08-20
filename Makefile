@@ -37,7 +37,7 @@ REDIS_WORK_BRANCH                    ?= loong64-v8.8.0
 RELEASE_WORK_BRANCH                  ?= loong64-v0.21.1
 REPREPRO_WORK_BRANCH                 ?= reprepro-5.5.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.5.1
-RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.47
+RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.48
 TINI_WORK_BRANCH                     ?= loong64-master
 VALKEY_WORK_BRANCH                   ?= loong64-9.1.1
 
