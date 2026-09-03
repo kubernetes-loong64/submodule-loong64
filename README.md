@@ -46,7 +46,7 @@ coordinate releases across the full stack.
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper base images for loong64                                                 | `loong64-v0.0.48`              |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | Repository template                                                                          | `main`                         |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | Container init (tini) for loong64                                                            | `loong64-master`               |
-| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey container images for loong64                                                          | `loong64-9.1.1`                |
+| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey container images for loong64                                                          | `loong64-9.1.2`                |
 
 ## Quick Start
 

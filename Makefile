@@ -39,7 +39,7 @@ REPREPRO_WORK_BRANCH                 ?= reprepro-5.5.1
 RUNC_WORK_BRANCH                     ?= loong64-v1.5.1
 RUNNER_TOOLS_BASE_IMAGES_WORK_BRANCH ?= loong64-v0.0.48
 TINI_WORK_BRANCH                     ?= loong64-master
-VALKEY_WORK_BRANCH                   ?= loong64-9.1.1
+VALKEY_WORK_BRANCH                   ?= loong64-9.1.2
 
 # No source code involved
 DEBIAN_WORK_BRANCH                   ?= main

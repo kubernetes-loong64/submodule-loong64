@@ -45,7 +45,7 @@
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper 基础镜像 loong64 移植                              | `loong64-v0.0.48`              |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | 仓库模板                                                                | `main`                         |
 | [tini-loong64](https://github.com/kubernetes-loong64/tini-loong64)                                         | 容器 init (tini) loong64 移植                                           | `loong64-master`               |
-| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey 容器镜像 loong64 移植                                            | `loong64-9.1.1`                |
+| [valkey-loong64](https://github.com/kubernetes-loong64/valkey-loong64)                                     | Valkey 容器镜像 loong64 移植                                            | `loong64-9.1.2`                |
 
 ## 快速开始
 
