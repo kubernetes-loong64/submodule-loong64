@@ -32,7 +32,7 @@
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                                          | `loong64-v1.36.1`              |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven LoongArch64 容器镜像                                       | `main`                         |
 | [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO 服务器和 mc (MinIO Client) loong64 移植                           | `loong64-2026-02-12T20-18-48Z` |
-| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                                              | `loong64-docker-v29.7.2`       |
+| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                                              | `loong64-docker-v29.8.0`       |
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager LoongArch64 容器镜像                           | `loong64-3.96.0`               |
 | [node-loong64](https://github.com/kubernetes-loong64/node-loong64)                                         | Node.js LoongArch64 容器镜像                                            | `loong64-v24.18.0`             |
 | [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                                              | `loong64-1.31.3`               |
