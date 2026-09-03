@@ -14,7 +14,7 @@
 | [.github](https://github.com/kubernetes-loong64/.github)                                                   | 共享 GitHub 配置                                                        | `main`                         |
 | [actions-runner-loong64](https://github.com/kubernetes-loong64/actions-runner-loong64)                     | GitHub Actions Runner 容器镜像 loong64 移植                             | `loong64-v2.336.0`             |
 | [buildx-loong64](https://github.com/kubernetes-loong64/buildx-loong64)                                     | Docker Buildx loong64 移植                                              | `loong64-v0.35.0`              |
-| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.7.2`              |
+| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.8.0`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                                             | `loong64-v5.5.1`               |
 | [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64                          | `main`                         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植                                    | `loong64-v2.3.4`               |
