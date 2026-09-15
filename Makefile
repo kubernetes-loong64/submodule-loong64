@@ -12,7 +12,7 @@ help: ## Show help information
 # Work branch variables — fill in your branch names
 ACTIONS_RUNNER_WORK_BRANCH           ?= loong64-v2.337.0
 BUILDX_WORK_BRANCH                   ?= loong64-v0.35.0
-CLI_WORK_BRANCH                      ?= loong64-v29.8.0
+CLI_WORK_BRANCH                      ?= loong64-v29.8.1
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.5.1
 CONTAINERD_WORK_BRANCH               ?= loong64-v2.3.5
 COREDNS_WORK_BRANCH                  ?= loong64-v1.14.2
@@ -27,7 +27,7 @@ HTOP_WORK_BRANCH                     ?= loong64-3.5.3
 JENKINS_WORK_BRANCH                  ?= loong64-2.580
 KUBERNETES_WORK_BRANCH               ?= loong64-v1.36.1
 MINIO_WORK_BRANCH                    ?= loong64-2026-02-12T20-18-48Z
-MOBY_WORK_BRANCH                     ?= loong64-docker-v29.8.0
+MOBY_WORK_BRANCH                     ?= loong64-docker-v29.8.1
 NEXUS_WORK_BRANCH                    ?= loong64-3.96.1
 NODE_WORK_BRANCH                     ?= loong64-v24.18.0
 NGINX_WORK_BRANCH                    ?= loong64-1.31.3
