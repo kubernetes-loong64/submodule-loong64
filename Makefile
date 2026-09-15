@@ -10,7 +10,7 @@ help: ## Show help information
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9._-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 # Work branch variables — fill in your branch names
-ACTIONS_RUNNER_WORK_BRANCH           ?= loong64-v2.336.0
+ACTIONS_RUNNER_WORK_BRANCH           ?= loong64-v2.337.0
 BUILDX_WORK_BRANCH                   ?= loong64-v0.35.0
 CLI_WORK_BRANCH                      ?= loong64-v29.8.0
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.5.1
