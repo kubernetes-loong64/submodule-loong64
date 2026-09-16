@@ -35,7 +35,7 @@
 | [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                                              | `loong64-docker-v29.8.1`       |
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager LoongArch64 容器镜像                           | `loong64-3.96.1`               |
 | [node-loong64](https://github.com/kubernetes-loong64/node-loong64)                                         | Node.js LoongArch64 容器镜像                                            | `loong64-v24.18.0`             |
-| [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                                              | `loong64-1.31.3`               |
+| [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                                              | `loong64-1.31.6`               |
 | [ossutil-loong64](https://github.com/kubernetes-loong64/ossutil-loong64)                                   | ossutil（阿里云 OSS 命令行工具）loong64 移植                            | `loong64-v1.7.19`              |
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes 网络插件 loong64 移植                                        | `loong64-v1.9.1`               |
 | [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis 容器镜像 loong64 移植                                             | `loong64-v8.8.0`               |
