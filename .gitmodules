@@ -138,3 +138,7 @@
 	path = go-containerregistry-loong64
 	url = https://github.com/kubernetes-loong64/go-containerregistry-loong64.git
 	branch = main
+[submodule "alpine"]
+	path = alpine
+	url = https://github.com/kubernetes-loong64/alpine.git
+	branch = main

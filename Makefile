@@ -11,6 +11,7 @@ help: ## Show help information
 
 # Work branch variables — fill in your branch names
 ACTIONS_RUNNER_WORK_BRANCH           ?= loong64-v2.337.0
+ALPINE_WORK_BRANCH                   ?= loong64-3.24.2
 BUILDX_WORK_BRANCH                   ?= loong64-v0.35.0
 CLI_WORK_BRANCH                      ?= loong64-v29.8.1
 COMPOSE_WORK_BRANCH                  ?= loong64-v5.5.1
@@ -98,6 +99,7 @@ checkout-all-work: ## Checkout work branch for main repo and all submodules
 	git checkout $(MAIN_WORK_BRANCH)
 	cd .github && git checkout $(DOT_GITHUB_WORK_BRANCH) || :
 	cd actions-runner-loong64 && git checkout $(ACTIONS_RUNNER_WORK_BRANCH) || :
+	cd alpine && git checkout $(ALPINE_WORK_BRANCH) || :
 	cd buildx-loong64 && git checkout $(BUILDX_WORK_BRANCH) || :
 	cd cli-loong64 && git checkout $(CLI_WORK_BRANCH) || :
 	cd compose-loong64 && git checkout $(COMPOSE_WORK_BRANCH) || :
