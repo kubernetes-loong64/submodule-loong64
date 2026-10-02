@@ -15,7 +15,7 @@
 | [actions-runner-loong64](https://github.com/kubernetes-loong64/actions-runner-loong64)                     | GitHub Actions Runner 容器镜像 loong64 移植                             | `loong64-v2.337.0`             |
 | [alpine](https://github.com/kubernetes-loong64/alpine)                                                     | Alpine Linux 基础容器镜像 loong64 移植                                  | `loong64-3.24.2`               |
 | [buildx-loong64](https://github.com/kubernetes-loong64/buildx-loong64)                                     | Docker Buildx loong64 移植                                              | `loong64-v0.35.0`              |
-| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.8.1`              |
+| [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.8.2`              |
 | [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                                             | `loong64-v5.5.1`               |
 | [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64                          | `main`                         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植                                    | `loong64-v2.4.1`               |
@@ -33,7 +33,7 @@
 | [kubernetes-loong64](https://github.com/kubernetes-loong64/kubernetes-loong64)                             | Kubernetes 主线的 loong64 移植                                          | `loong64-v1.36.1`              |
 | [maven-loong64](https://github.com/kubernetes-loong64/maven-loong64)                                       | Apache Maven LoongArch64 容器镜像                                       | `main`                         |
 | [minio-loong64](https://github.com/kubernetes-loong64/minio-loong64)                                       | MinIO 服务器和 mc (MinIO Client) loong64 移植                           | `loong64-2026-02-12T20-18-48Z` |
-| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                                              | `loong64-docker-v29.8.1`       |
+| [moby-loong64](https://github.com/kubernetes-loong64/moby-loong64)                                         | Docker (moby) loong64 移植                                              | `loong64-docker-v29.8.2`       |
 | [nexus-loong64](https://github.com/kubernetes-loong64/nexus-loong64)                                       | Nexus Repository Manager LoongArch64 容器镜像                           | `loong64-3.96.2`               |
 | [node-loong64](https://github.com/kubernetes-loong64/node-loong64)                                         | Node.js LoongArch64 容器镜像                                            | `loong64-v24.18.0`             |
 | [nginx-loong64](https://github.com/kubernetes-loong64/nginx-loong64)                                       | Nginx LoongArch64 容器镜像                                              | `loong64-1.31.6`               |
