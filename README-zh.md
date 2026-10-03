@@ -16,7 +16,7 @@
 | [alpine](https://github.com/kubernetes-loong64/alpine)                                                     | Alpine Linux 基础容器镜像 loong64 移植                                  | `loong64-3.24.2`               |
 | [buildx-loong64](https://github.com/kubernetes-loong64/buildx-loong64)                                     | Docker Buildx loong64 移植                                              | `loong64-v0.35.0`              |
 | [cli-loong64](https://github.com/kubernetes-loong64/cli-loong64)                                           | Docker CLI loong64 移植                                                 | `loong64-v29.8.2`              |
-| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                                             | `loong64-v5.5.1`               |
+| [compose-loong64](https://github.com/kubernetes-loong64/compose-loong64)                                   | Docker Compose loong64 移植                                             | `loong64-v5.6.0`               |
 | [debian-loong64](https://github.com/kubernetes-loong64/debian-loong64)                                     | 同步 Debian 容器镜像到 Docker Hub 用于 loong64                          | `main`                         |
 | [containerd-loong64](https://github.com/kubernetes-loong64/containerd-loong64)                             | 容器运行时 (containerd) loong64 移植                                    | `loong64-v2.4.1`               |
 | [createrepo](https://github.com/kubernetes-loong64/createrepo)                                             | createrepo_c 容器镜像，用于生成 RPM 仓库元数据（amd64、arm64、loong64） | `1.2.4`                        |
@@ -41,7 +41,7 @@
 | [plugins-loong64](https://github.com/kubernetes-loong64/plugins-loong64)                                   | Kubernetes 网络插件 loong64 移植                                        | `loong64-v1.9.1`               |
 | [redis-loong64](https://github.com/kubernetes-loong64/redis-loong64)                                       | Redis 容器镜像 loong64 移植                                             | `loong64-v8.8.0`               |
 | [release-loong64](https://github.com/kubernetes-loong64/release-loong64)                                   | 发布工具和制品 loong64 移植                                             | `loong64-v0.21.1`              |
-| [reprepro](https://github.com/kubernetes-loong64/reprepro)                                                 | reprepro 容器镜像，用于生成 deb 仓库元数据（amd64、arm64、loong64）     | `reprepro-5.5.1`               |
+| [reprepro](https://github.com/kubernetes-loong64/reprepro)                                                 | reprepro 容器镜像，用于生成 deb 仓库元数据（amd64、arm64、loong64）     | `reprepro-5.6.0`               |
 | [runc-loong64](https://github.com/kubernetes-loong64/runc-loong64)                                         | 容器运行时 (runc) loong64 移植                                          | `loong64-v1.5.2`               |
 | [runner-tools-base-images-loong64](https://github.com/kubernetes-loong64/runner-tools-base-images-loong64) | gitlab-runner-helper 基础镜像 loong64 移植                              | `loong64-v0.0.50`              |
 | [template-loong64](https://github.com/kubernetes-loong64/template-loong64)                                 | 仓库模板                                                                | `main`                         |
